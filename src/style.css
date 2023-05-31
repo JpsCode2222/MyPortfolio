@@ -1,0 +1,111 @@
+#btn1:hover{
+    background-color: blue !important;
+}
+#btn2:hover{
+    background-color: white !important;
+}
+#btn2:hover #abtn2{
+    color: black !important;
+}
+@media (max-width:767px) {
+    .profilediv{
+        margin-right: 120px !important;
+    }
+}
+@media (max-width:570px) {
+    .profilediv{
+        margin-right: 50px !important;
+    }
+}
+.profilediv{
+    float: right !important;
+}
+@media(max-width:10000px){
+    body{
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+    }
+}
+@media(max-width:800px){
+    body{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}
+
+@media(max-width:2000px){
+    #nav{
+        margin-left: 100px!important;
+    }
+}
+#btn1,#btn2{
+    border: 2px solid lightskyblue !important;
+}
+#listitem{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+#listitem a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#listitem a:hover{
+    color:blue;
+}
+#img{
+    height:100%;
+    width: 100%;    
+    border-radius: 50%;
+}
+#logo{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#logoi{
+    color: white !important;
+    font-size: 20px;
+}
+
+#price1:hover{
+    background-color: white !important;
+    color: black !important;
+}
+#price2:hover{
+    background-color: white !important;
+    color: black !important;
+}
+#price3:hover{
+    background-color: white !important;
+    color: black !important;
+}
+#imgp :hover #imgscale{
+    transform: scale(1.5);
+}
+.info{
+    height: 180px;
+    width: 100%;
+    border-bottom: 0.5px solid silver;
+    border-left: 0.5px solid silver;
+    position: relative;
+}
+#rsa{
+    position: absolute;
+    margin-left: -18px !important;
+    margin-top: 7px;
+}
+#bat{
+    z-index: 9999;
+    margin-right: 5px;
+}
+#skill{
+    padding-top: 55px;
+    margin-left: 23px;
+    font-weight: bold;
+}
+
+#aaa :hover #scimg{
+    transform: scale(1.5);
+}
